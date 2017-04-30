@@ -47,20 +47,20 @@ Headers and Comments
    +   Assume the reader knows C, but doesn't know what your code does
 
            Good: 
-
+           
            //If the test succeeds, print a notification
  	   if(success){
              printf("Yay");
 	   }
-
+           
 	   Bad:
-
+           
 	   if(success){
              printf("Yay");
 	   }
-
+           
 	   Bad: 
-
+           
 	   //if success evaluates to true, print "Yay" to the terminal
 	   if(success){
              printf("Yay");
