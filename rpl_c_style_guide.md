@@ -31,7 +31,8 @@ Headers and Comments
    +   Date the file was last modified
    +   Author(s) of the file
    +   Team that the file is associated with
-   +   Short description of the file
+   +   Short descriptioe of the file
+
         /* 
 	 * Filename: example.c
 	 * Last Modified: April 30, 2017
