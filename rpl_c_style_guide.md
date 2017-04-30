@@ -32,5 +32,13 @@ Headers and Comments
    +   Author(s) of the file
    +   Team that the file is associated with
    +   Short description of the file
+        /* 
+	 * Filename: example.c
+	 * Last Modified: April 30, 2017
+	 * Author: Patrick Liu
+	 * Team: Launchy McLaunchface/Avionics
+	 * Description: Example of a file header for a C source file
+	 */
 
-
+* 
+  
