@@ -11,7 +11,7 @@ in this document.
 File extensions
 ---------------
 
-*  All C source files should have the file extension .c
+*  All C source files should have the file extension .c. 
    Similarly, all C header files should have the file extension .h
 
         Good: foo.c, foo_header.h
