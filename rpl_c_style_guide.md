@@ -33,7 +33,7 @@ Headers and Comments
    +   Team that the file is associated with
    +   Short description of the file
 
-
+\ \
           /*
            * Filename: example.c
            * Last Modified: April 30, 2017
@@ -47,7 +47,7 @@ Headers and Comments
        comment describing what they do
    +   Assume the reader knows C, but doesn't know what your code does
 
-
+\ \
           Good: 
            
           //If the test succeeds, print a notification
