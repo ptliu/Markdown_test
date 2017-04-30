@@ -46,21 +46,18 @@ Headers and Comments
    +   Assume the reader knows C, but doesn't know what your code does
 
  <!-- -->
-Good: 
-
+    Good: 
     //If the test succeeds, print a notification
     if(success){
         printf("Yay");
     }  
 
-Bad:
-
+    Bad:
     if(success){
         printf("Yay");
     }
           
-Bad:
-
+    Bad:
     //if success evaluates to true, print "Yay" to the terminal
     if(success){
         printf("Yay");
@@ -75,14 +72,14 @@ Preprocessor Directives
 *  Preprocessor directives should be grouped by type, and different types
    of preprocessor directives should be separated by a blank line
 
-Good:
+    Good:
     #include <stdio.h>
     #include <stdlib.h>
 
     #define FOO 10
     #define BAR 11
 
-Bad:
+    Bad:
     #include <stdio.h>
     #define FOO 10
     #include <stdlib.h>
@@ -98,7 +95,7 @@ Organization, Whitespace, and Indentation
 	curly braces should be indented by another four spaces
     +   Do NOT use tabs unless your tab key is configured to enter spaces
 <!-- -->
-Good:
+    Good:
     #include <stdio.h>
 
     main(){      
@@ -109,7 +106,7 @@ Good:
         }
     }
 
-Bad: 
+    Bad: 
     #include <stdio.h>
 
     main(){
@@ -126,12 +123,12 @@ Bad:
     original statement
 <!-- -->
 
-Good:
+    Good:
     if(1){
          //something
     }
 
-Bad;
+    Bad:
     if(1)
     { //something }
     
