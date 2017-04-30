@@ -14,8 +14,23 @@ File extensions
 
         Bad: foo
 
-*  All executable files should have the file extension .o
+*  All executable files should have the file extension .o, and 
+   should not be the default name(a.out) 
 
         Good: foo.o
 
         Bad: foo
+
+These guidelines are in place to make the types of files clear at a glance
+
+Headers and Comments
+--------------------
+
+*  All files should have a file header, containing at least:
+   +   Name of the file
+   +   Date the file was last modified
+   +   Author(s) of the file
+   +   Team that the file is associated with
+   +   Short description of the file
+
+
