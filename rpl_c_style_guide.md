@@ -33,21 +33,21 @@ Headers and Comments
    +   Team that the file is associated with
    +   Short description of the file
 
-\ \
-          /*
-           * Filename: example.c
-           * Last Modified: April 30, 2017
-           * Author: Patrick Liu
-           * Team: Launchy McLaunchface/Avionics
-           * Description: Example of a file header for a C source file
-           */
+\ 
+           /*
+            * Filename: example.c
+            * Last Modified: April 30, 2017
+            * Author: Patrick Liu
+            * Team: Launchy McLaunchface/Avionics
+            * Description: Example of a file header for a C source file
+            */
 
 * Complex blocks of code should have a comment 
    +   Function calls, loops, and if-statements should have a 
        comment describing what they do
    +   Assume the reader knows C, but doesn't know what your code does
 
-\ \
+\ 
           Good: 
            
           //If the test succeeds, print a notification
