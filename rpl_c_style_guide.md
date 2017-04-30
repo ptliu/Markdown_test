@@ -21,7 +21,6 @@ File extensions
 
         Bad: foo
 
-These guidelines are in place to make the types of files clear at a glance
 
 Headers and Comments
 --------------------
@@ -47,23 +46,90 @@ Headers and Comments
    +   Assume the reader knows C, but doesn't know what your code does
 
  <!-- -->
-    Good: 
-           
+    Good:            
     //If the test succeeds, print a notification
     if(success){
-      printf("Yay");
-    }
-           
-    Bad:
-           
+        printf("Yay");
+    }  
+
+    Bad:      
     if(success){
-      printf("Yay");
+        printf("Yay");
     }
           
-    Bad: 
-           
+    Bad:        
     //if success evaluates to true, print "Yay" to the terminal
     if(success){
-      printf("Yay");
+        printf("Yay");
     }
   
+Preprocessor Directives
+-----------------------
+
+*  Preprocessor directives should be at the top of the C source or header file,
+   immediately below the file header
+ 
+*  Preprocessor directives should be grouped by type, and different types
+   of preprocessor directives should be separated by a blank line
+
+    Good:
+    #include <stdio.h>
+    #include <stdlib.h>
+
+    #define FOO 10
+    #define BAR 11
+
+    Bad:
+    #include <stdio.h>
+    #define FOO 10
+    #include <stdlib.h>
+    #define BAR 11
+
+Organization, Whitespace, and Indentation
+-----------------------------------------
+
+*   Nested blocks of code should be indented by four spaces per level of
+    nesting
+    +   This means that your header, preprocessor directives, and outer 
+        functions should be left-justified, and each block of code inside
+	curly braces should be indented by another four spaces
+    +   Do NOT use tabs unless your tab key is configured to enter spaces
+<!-- -->
+    Good:
+    #include <stdio.h>
+
+    main(){
+       
+        int bar;
+	bar = 10;
+        if(bar == 100){
+            printf("Foo");
+	}
+    }
+
+    Bad: 
+    #include <stdio.h>
+
+    main(){
+    
+      int bar;
+ 	bar = 10;
+       if(bar == 100){
+          printf("Foo");	}
+    }
+
+*   An opening curly brace should be placed immediately adjacent to 
+    the statement requiring it, and a closing curly brace should be 
+    by itself on a new line, with the same level of indentation as the 
+    original statement
+<!-- -->
+
+    Good:
+    if(1){
+         //something
+    }
+
+    Bad;
+    if(1)
+    { //something }
+    
