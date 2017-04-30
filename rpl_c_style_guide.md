@@ -2,6 +2,7 @@ Rocket Propulsion Laboratory C Style Guide
 ==========================================
 
 *Written by Patrick Liu*
+
 *Last updated: April 30, 2017*
 
 All C code written for RPL purposes should follow the guidelines outlined
