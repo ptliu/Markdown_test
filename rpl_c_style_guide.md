@@ -33,6 +33,7 @@ Headers and Comments
    +   Team that the file is associated with
    +   Short description of the file
 
+
           /*
            * Filename: example.c
            * Last Modified: April 30, 2017
@@ -45,6 +46,7 @@ Headers and Comments
    +   Function calls, loops, and if-statements should have a 
        comment describing what they do
    +   Assume the reader knows C, but doesn't know what your code does
+
 
           Good: 
            
