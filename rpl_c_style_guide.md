@@ -49,9 +49,9 @@ Headers and Comments
            Good: 
            
            //If the test succeeds, print a notification
- 	   if(success){
-             printf("Yay");
-	   }
+ 	    if(success){
+              printf("Yay");
+	    }
            
 	   Bad:
            
