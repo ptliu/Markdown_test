@@ -46,18 +46,21 @@ Headers and Comments
    +   Assume the reader knows C, but doesn't know what your code does
 
  <!-- -->
-Good:            
+Good: 
+
     //If the test succeeds, print a notification
     if(success){
         printf("Yay");
     }  
 
-Bad:      
+Bad:
+
     if(success){
         printf("Yay");
     }
           
-Bad:        
+Bad:
+
     //if success evaluates to true, print "Yay" to the terminal
     if(success){
         printf("Yay");
@@ -98,8 +101,7 @@ Organization, Whitespace, and Indentation
 Good:
     #include <stdio.h>
 
-    main(){
-       
+    main(){      
         int bar;
         bar = 10;
         if(bar == 100){
