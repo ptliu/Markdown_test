@@ -71,7 +71,7 @@ Preprocessor Directives
  
 *  Preprocessor directives should be grouped by type, and different types
    of preprocessor directives should be separated by a blank line
-
+<!-- -->
     Good:
     #include <stdio.h>
     #include <stdlib.h>
@@ -121,6 +121,10 @@ Organization, Whitespace, and Indentation
     the statement requiring it, and a closing curly brace should be 
     by itself on a new line, with the same level of indentation as the 
     original statement
+    +   Furthermore, the code inside that curly brace should start on the
+        line immediately following the opening curly brace
+    +   Curly braces should always be used when they can, even if they are 
+        optional
 <!-- -->
 
     Good:
@@ -131,4 +135,16 @@ Organization, Whitespace, and Indentation
     Bad:
     if(1)
     { //something }
+ 
+*   Each statement should be on its own line
+    +   This means that multiple variable declarations should not be used
+<!-- -->
     
+    Good:
+    int foo;
+    int bar;
+
+    Bad:
+    int foo, bar;
+
+*   Each line of code in a file should be a maximum of 80 characters long
