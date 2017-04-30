@@ -1,6 +1,9 @@
 Rocket Propulsion Laboratory C Style Guide
 ==========================================
 
+*Written by Patrick Liu*
+*Last updated: April 30, 2017*
+
 All C code written for RPL purposes should follow the guidelines outlined
 in this document.
 
@@ -148,3 +151,48 @@ Organization, Whitespace, and Indentation
     int foo, bar;
 
 *   Each line of code in a file should be a maximum of 80 characters long
+
+Variables
+--------
+
+*   Variable names should be descriptive
+    +   This means that single letter variable names should 
+        generally not be used
+    +   An exception to this rule is loop iteration variables named i and j,
+        as those are generally expected practice, as well as fd for file
+	descriptor
+<!-- -->
+    Good:
+    int foo_count;
+    int bar_count;
+
+    Bad:
+    int x;
+    int y;
+
+*   Variable names should be lowercase, with word separated by underscores,
+    and should not have leading or trailing underscores
+    +   Constants should be in ALL CAPS
+
+<!-- -->
+    Good:
+    #define FOO_CONSTANT 10
+
+    int foo_count;
+    int bar_count;
+
+    Bad:
+    #define foo_constant 10
+
+    int foocount;
+    int BarCount;
+
+Miscellaneous
+-------------
+
+*   Always close files explicitly when file operations are complete
+
+*   Use stderr for error output or diagnostic output 
+    +   This means using fprintf()
+
+
