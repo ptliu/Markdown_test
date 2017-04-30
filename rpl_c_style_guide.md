@@ -10,12 +10,12 @@ File extensions
 *  All C source files should have the file extension .c
    Similarly, all C header files should have the file extension .h
 
-      Good: foo.c, foo_header.h
+        Good: foo.c, foo_header.h
 
-      Bad: foo
+        Bad: foo
 
 *  All executable files should have the file extension .o
 
-      Good: foo.o
+        Good: foo.o
 
-      Bad: foo
+        Bad: foo
